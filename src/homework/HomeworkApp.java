@@ -6,13 +6,9 @@ public class HomeworkApp {
             public static void main(String... args) {
 
                 printThreeWord();
-
                 checkSumSign();
-
                 printColor();
-
-               compareNumbers();
-
+                compareNumbers();
             }
 
             static void printThreeWord() {
@@ -44,9 +40,7 @@ public class HomeworkApp {
                     else  {
                         System.out.println("Зеленый");
                     }
-
         }
-
     static void compareNumbers(){
         Scanner number = new Scanner(System.in);
         System.out.println("Введите a: ");
